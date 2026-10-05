@@ -94,3 +94,18 @@ Biometric authentication can make account access more difficult for an attacker 
 | Knowledge | Something the user knows | Password, PIN, Passphrase | Simple and easy to use | Can be guessed, stolen, or exposed |
 | Possession | Something the user has | Mobile phone, Security key, Smart card | Adds a physical verification step | Device or token can be lost or compromised |
 | Inherence | Something the user is | Fingerprint, Face recognition, Iris scan | Difficult to replicate remotely | Biometric data cannot be easily changed if compromised |
+
+
+## Is OTP Alone MFA?
+
+An OTP (One-Time Password) is not automatically Multi-Factor Authentication.
+
+MFA requires authentication using two or more different authentication factors. If an OTP is used as the only authentication method, it is considered single-factor authentication.
+
+For example:
+
+- Password + OTP = MFA, because it combines a knowledge factor and a possession factor.
+- OTP only = Single-factor authentication.
+- Password + Fingerprint = MFA, because it combines a knowledge factor and an inherence factor.
+
+Therefore, an OTP alone is not MFA. It becomes part of MFA when it is combined with another independent authentication factor.
