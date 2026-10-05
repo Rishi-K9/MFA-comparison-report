@@ -16,36 +16,6 @@ The objective of this project is to:
 - Understand how MFA improves account security.
 - Determine whether an OTP alone qualifies as MFA.
 
-## How MFA Improves Account Security
-
-Multi-Factor Authentication improves account security by requiring two or more independent authentication factors before granting access to an account.
-
-If an attacker obtains a user's password, MFA can prevent unauthorized access because the attacker may still need another factor, such as a registered device, security key, or biometric verification.
-
-MFA helps protect accounts against common threats such as:
-
-- Password theft
-- Credential stuffing
-- Phishing
-- Brute-force password attacks
-- Unauthorized account access
-
-For example, if a user has a password and a separate authentication factor, stealing only the password is not enough to complete the authentication process.
-
-### Benefits of MFA
-
-- Provides an additional layer of security.
-- Reduces the impact of stolen passwords.
-- Makes unauthorized access more difficult.
-- Helps protect sensitive accounts and information.
-- Provides stronger security than password-only authentication.
-
-
-
-
-
-
-
 ## Authentication Factors
 
 Authentication factors are categories of information or evidence used to verify a user's identity. The three common authentication factors are knowledge, possession, and inherence.
@@ -95,6 +65,29 @@ Biometric authentication can make account access more difficult for an attacker 
 | Possession | Something the user has | Mobile phone, Security key, Smart card | Adds a physical verification step | Device or token can be lost or compromised |
 | Inherence | Something the user is | Fingerprint, Face recognition, Iris scan | Difficult to replicate remotely | Biometric data cannot be easily changed if compromised |
 
+## How MFA Improves Account Security
+
+Multi-Factor Authentication improves account security by requiring two or more independent authentication factors before granting access to an account.
+
+If an attacker obtains a user's password, MFA can prevent unauthorized access because the attacker may still need another factor, such as a registered device, security key, or biometric verification.
+
+MFA helps protect accounts against common threats such as:
+
+- Password theft
+- Credential stuffing
+- Phishing
+- Brute-force password attacks
+- Unauthorized account access
+
+For example, if a user has a password and a separate authentication factor, stealing only the password is not enough to complete the authentication process.
+
+### Benefits of MFA
+
+- Provides an additional layer of security.
+- Reduces the impact of stolen passwords.
+- Makes unauthorized access more difficult.
+- Helps protect sensitive accounts and information.
+- Provides stronger security than password-only authentication.
 
 ## Is OTP Alone MFA?
 
