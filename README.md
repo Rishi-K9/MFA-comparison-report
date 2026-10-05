@@ -60,3 +60,12 @@ Examples:
 - Voice recognition
 
 Biometric authentication can make account access more difficult for an attacker because biometric characteristics are associated with the individual.
+
+
+## MFA Factor Comparison
+
+| Authentication Factor | What It Means | Examples | Main Advantage | Main Risk |
+|---|---|---|---|---|
+| Knowledge | Something the user knows | Password, PIN, Passphrase | Simple and easy to use | Can be guessed, stolen, or exposed |
+| Possession | Something the user has | Mobile phone, Security key, Smart card | Adds a physical verification step | Device or token can be lost or compromised |
+| Inherence | Something the user is | Fingerprint, Face recognition, Iris scan | Difficult to replicate remotely | Biometric data cannot be easily changed if compromised |
