@@ -153,3 +153,11 @@ Authentication factors are types of evidence used to verify a user's identity. T
 No. An OTP alone is not necessarily MFA. MFA requires two or more different authentication factors.
 
 For example, a password combined with an OTP can provide MFA because it combines a knowledge factor with a possession factor. However, using only an OTP as the authentication method is single-factor authentication.
+
+## Conclusion
+
+Multi-Factor Authentication provides an additional layer of protection by requiring multiple authentication factors. The three main authentication factors are knowledge, possession, and inherence.
+
+Using MFA reduces the risk of unauthorized access even when one authentication factor, such as a password, is compromised. However, the strength of MFA depends on the security of the factors and how they are implemented.
+
+Overall, MFA is an effective security measure for protecting user accounts and sensitive information.
