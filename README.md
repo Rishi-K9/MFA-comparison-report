@@ -102,3 +102,35 @@ For example:
 - Password + Fingerprint = MFA, because it combines a knowledge factor and an inherence factor.
 
 Therefore, an OTP alone is not MFA. It becomes part of MFA when it is combined with another independent authentication factor.
+
+## MFA Examples
+
+### Example 1: Password + OTP
+
+A user enters a password and then provides an OTP received on their registered device.
+
+Factors used:
+- Knowledge: Password
+- Possession: Registered device
+
+This is MFA because two different authentication factors are used.
+
+### Example 2: Password + Fingerprint
+
+A user enters a password and then verifies their fingerprint.
+
+Factors used:
+- Knowledge: Password
+- Inherence: Fingerprint
+
+This is MFA because two different authentication factors are used.
+
+### Example 3: Password Only
+
+A user signs in using only a password.
+
+Factor used:
+- Knowledge: Password
+
+This is not MFA because only one authentication factor is used.
+
