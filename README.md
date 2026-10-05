@@ -134,3 +134,22 @@ Factor used:
 
 This is not MFA because only one authentication factor is used.
 
+## Interview Questions and Answers
+
+### 1. What is MFA?
+
+Multi-Factor Authentication (MFA) is a security method that requires a user to provide two or more different authentication factors to verify their identity before accessing an account.
+
+### 2. What are authentication factors?
+
+Authentication factors are types of evidence used to verify a user's identity. The three common factors are:
+
+- Knowledge: Something the user knows, such as a password or PIN.
+- Possession: Something the user has, such as a mobile phone or security key.
+- Inherence: Something the user is, such as a fingerprint or face.
+
+### 3. Is OTP alone MFA?
+
+No. An OTP alone is not necessarily MFA. MFA requires two or more different authentication factors.
+
+For example, a password combined with an OTP can provide MFA because it combines a knowledge factor with a possession factor. However, using only an OTP as the authentication method is single-factor authentication.
