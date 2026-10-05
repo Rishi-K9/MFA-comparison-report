@@ -161,3 +161,30 @@ Multi-Factor Authentication provides an additional layer of protection by requir
 Using MFA reduces the risk of unauthorized access even when one authentication factor, such as a password, is compromised. However, the strength of MFA depends on the security of the factors and how they are implemented.
 
 Overall, MFA is an effective security measure for protecting user accounts and sensitive information.
+
+## Deployment Configuration
+
+The project is deployed using GitHub Pages and GitHub Actions.
+
+The deployment workflow is stored at:
+
+`.github/workflows/deploy.yml`
+
+The workflow automatically deploys the project when changes are pushed to the `main` branch.
+
+## Rollback Evidence
+
+A rollback test was performed to verify that the previous working version could be restored successfully.
+
+### Rollback Process
+
+1. A temporary change was made to the website heading.
+2. The temporary version was committed as `Test rollback version`.
+3. The previous working version was restored.
+4. The rollback was committed as `Rollback to previous working version`.
+5. GitHub Actions successfully deployed the rollback.
+6. The deployed website was checked and the original heading was restored.
+
+### Rollback Result
+
+The rollback was successful. The website returned to the previous working version after the rollback commit was deployed.
